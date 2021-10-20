@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Georgia Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Georgia Regular'), url('../fonts/georgia.woff') format('woff');
+}
+@font-face {
+  font-family: 'Georgia Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Georgia Bold'), url('../fonts/georgiab.woff') format('woff');
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+body {
+  line-height: 1.5;
+  font-family: $font-lato;
+  color: $text-color;
+}

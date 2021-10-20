@@ -1,0 +1,64 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+
+label,
+button,
+a {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+@font-face {
+  font-family: 'Georgia Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Georgia Regular"), url("../fonts/georgia.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Georgia Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Georgia Bold"), url("../fonts/georgiab.woff") format("woff");
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+body {
+  line-height: 1.5;
+  font-family: "Lato", sans-serif;
+  color: #424242;
+}
+/*# sourceMappingURL=index.css.map */
