@@ -1,0 +1,30 @@
+.about {
+  margin-top: 130px;
+  background-color: $bg-color;
+  color: white;
+  &-container {
+    display: flex;
+    align-items: center;
+    height: 920px;
+  }
+
+  &-content {
+    transform: translateX(-50px);
+  }
+
+  &-heading {
+    font-size: 50px;
+    font-family: $font-geo-bold;
+    margin-bottom: 35px;
+    line-height: 78px;
+    width: 580px;
+  }
+  &-button {
+    padding: 20px 50px;
+    background-color: $green-color;
+    color: white;
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: 50px;
+  }
+}

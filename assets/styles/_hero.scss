@@ -1,0 +1,29 @@
+.hero {
+  height: 895px;
+  background-image: url(../images/BG.png);
+  background-size: cover;
+
+  &-container {
+    position: relative;
+  }
+  &-content {
+    max-width: 440px;
+    position: absolute;
+    top: 175px;
+  }
+  &-heading {
+    font-size: 65px;
+    font-family: $font-geo-bold;
+    color: $green-color;
+    line-height: 74px;
+    margin-bottom: 30px;
+  }
+  &-button {
+    padding: 20px 50px;
+    color: white;
+    background-color: $green-color;
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: 40px;
+  }
+}

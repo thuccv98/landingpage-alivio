@@ -1,0 +1,67 @@
+.work {
+  margin-top: 174px;
+  margin-bottom: 50px;
+  &-container {
+    display: flex;
+    flex-direction: column;
+  }
+  &-img {
+    border-radius: 12px;
+    margin-top: 60px;
+  }
+}
+
+.above {
+  .p {
+    font-size: 24px;
+  }
+  height: 325px;
+  &-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+  &-heading {
+    font-size: 50px;
+    font-family: $font-geo-bold;
+    color: $green-color;
+    line-height: 78px;
+    max-width: 584px;
+  }
+  p {
+    max-width: 670px;
+  }
+}
+
+.below {
+  display: flex;
+  gap: 0 95px;
+  &-card:nth-child(2) {
+    padding-top: 240px;
+  }
+  &-card:last-child {
+    padding-top: 30px;
+  }
+
+  &-card {
+    max-width: 390px;
+    max-height: 900px;
+  }
+  &-heading {
+    font-family: $font-geo-bold;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 55px;
+    position: relative;
+  }
+  &-number {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    font-family: $font-geo;
+    font-size: 150px;
+    line-height: 1;
+    color: $green-color;
+    opacity: 0.2;
+  }
+}

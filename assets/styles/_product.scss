@@ -1,0 +1,37 @@
+.product {
+  &-container {
+    height: 650px;
+    display: flex;
+    position: relative;
+    margin-top: 120px;
+    margin-bottom: 170px;
+  }
+
+  &-img {
+    margin-left: 70px;
+    object-fit: contain;
+    display: inline-block;
+    margin-right: 86px;
+  }
+
+  &-card {
+    object-fit: contain;
+    position: absolute;
+    bottom: -25px;
+    left: -20px;
+  }
+
+  p {
+    width: 80%;
+  }
+
+  &-subheading {
+    font-size: 25px;
+  }
+  &-heading {
+    font-size: 50px;
+    color: $green-color;
+    font-family: $font-geo-bold;
+    margin-bottom: 50px;
+  }
+}

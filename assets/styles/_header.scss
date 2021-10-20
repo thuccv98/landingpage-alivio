@@ -1,0 +1,35 @@
+.header {
+  border: 1px solid #d6d6d6;
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+  }
+  &-auth {
+    display: flex;
+    align-items: center;
+    gap: 0 35px;
+  }
+  &-signin {
+    color: $nav-color;
+  }
+  &-button {
+    padding: 13px 50px;
+    color: white;
+    background-color: $green-color;
+    border-radius: 4px;
+  }
+  &-logo {
+    cursor: pointer;
+  }
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 0 72px;
+  &-link {
+    color: $nav-color;
+  }
+}
